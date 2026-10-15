@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-R0fTuO/6sjp317/eZdo3oy5yHDGUC8BCcbs1gNl3nLg='; style-src 'sha256-ANQk5laq0ZjN76nQ8uQGL4zY5WPUbmiSxXstlop0Yas='; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-h2VfDRQ4jedswh/fJQahiNd5DFk23o/TbmshbjTJo/4='; style-src 'sha256-ANQk5laq0ZjN76nQ8uQGL4zY5WPUbmiSxXstlop0Yas='; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta name="description" content="InvestorOS 本地投资管理工作台 · 演示原型">
   <title>InvestorOS · 投资工作台</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Crect%20width%3D%2240%22%20height%3D%2240%22%20rx%3D%2211%22%20fill%3D%22%23143b35%22%2F%3E%3Cpath%20d%3D%22M11%2028V16h5v12zm0-17V7h5v4zm10%2014V11h-4V7h12v12h-4v-5l-7%207-3-3%207-7h-1z%22%20fill%3D%22%23d9eccb%22%2F%3E%3C%2Fsvg%3E%0A" type="image/svg+xml">
@@ -187,7 +187,7 @@ function sendDemoMessage(text){
   document.querySelector('#agent-input').value='';
   document.querySelector('.agent-send').disabled=true;
   error.hidden=true;error.textContent='';scrollChat();
-  document.querySelector('#agent-input').focus();
+  document.querySelector('#agent-input').focus({preventScroll:true});
 }
 function overview(){
   return heading('YOUR INVESTMENT, WITH INTENTION','让每一次决策，都更有章法。','2026 年 10 月 15 日，星期四 · 从看清自己的投资开始。',`<button class="button" data-action="import">${icon('upload')}导入交易</button><button class="button primary" data-action="intent">${icon('plus')}新建拟交易</button>`)+`
@@ -259,7 +259,7 @@ function intent(){
 document.addEventListener('click',event=>{
   const prompt=event.target.closest('[data-agent-prompt]');
   if(prompt){sendDemoMessage(prompt.dataset.agentPrompt);return;}
-  if(event.target.closest('#agent-reset')){state.chat=[{role:'assistant',text:demoGreeting,links:[]}];state.chatInput='';render();document.querySelector('#agent-input').focus();return;}
+  if(event.target.closest('#agent-reset')){state.chat=[{role:'assistant',text:demoGreeting,links:[]}];state.chatInput='';render();document.querySelector('#agent-input').focus({preventScroll:true});return;}
   const pageButton=event.target.closest('[data-page]');
   if(pageButton){go(pageButton.dataset.page);return;}
   const filter=event.target.closest('[data-filter]');
