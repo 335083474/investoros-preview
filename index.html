@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-h2VfDRQ4jedswh/fJQahiNd5DFk23o/TbmshbjTJo/4='; style-src 'sha256-ANQk5laq0ZjN76nQ8uQGL4zY5WPUbmiSxXstlop0Yas='; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-BAm+u6IeaMQJqTIRzEg19RcIhMAxAkVW56rLMdoBKaw='; style-src 'sha256-vUR6WbxLWLXjHxur707gIX7HfgxGdHN2tzUP6kx2TyI='; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta name="description" content="InvestorOS 本地投资管理工作台 · 演示原型">
   <title>InvestorOS · 投资工作台</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Crect%20width%3D%2240%22%20height%3D%2240%22%20rx%3D%2211%22%20fill%3D%22%23143b35%22%2F%3E%3Cpath%20d%3D%22M11%2028V16h5v12zm0-17V7h5v4zm10%2014V11h-4V7h12v12h-4v-5l-7%207-3-3%207-7h-1z%22%20fill%3D%22%23d9eccb%22%2F%3E%3C%2Fsvg%3E%0A" type="image/svg+xml">
@@ -67,7 +67,35 @@
 @media(max-width:1100px){.overview-chat-layout{grid-template-columns:minmax(0,1fr) minmax(320px,1.05fr);gap:16px}.overview-data .hero-card{padding:22px}.overview-data .hero-value{font-size:32px}.overview-data .metric{padding:16px}.agent-header{padding:18px 16px}.agent-header h2{font-size:12px}.agent-demo-badge{font-size:7px;margin-left:3px}.agent-messages{padding:17px 15px 7px}.agent-context{padding-inline:16px}.agent-suggestions{padding-inline:15px}.agent-composer{padding-inline:14px}.agent-composer-hint span:last-child{display:none}}
 @media(max-width:900px){.overview-chat-layout{grid-template-columns:1fr}.agent-panel{grid-row:1;height:470px}.overview-data .hero-card{min-height:230px}.overview-data .hero-bottom{grid-template-columns:1fr 1fr auto}.overview-data .hero-bottom>.text-button{grid-column:auto}.overview-data .metric-grid{grid-template-columns:repeat(4,1fr)}.agent-header h2{font-size:15px}.agent-bubble p{font-size:12px}.agent-header{padding:20px}.agent-context{padding-inline:20px}.agent-messages{padding:18px 20px 8px}.agent-composer{padding-inline:18px}}
 @media(max-width:700px){.overview-chat-layout{gap:18px;margin-bottom:18px}.agent-panel{height:470px}.agent-header h2{font-size:14px}.agent-header{padding:17px 16px 14px}.agent-header p{font-size:9px}.agent-demo-badge{font-size:8px;margin-left:4px}.agent-context{padding:8px 16px;font-size:8px}.agent-context span{font-size:7px}.agent-messages{padding:17px 15px 8px}.agent-bubble{padding:11px 12px}.agent-bubble p{font-size:11px}.agent-composer{padding:0 13px 12px}.agent-suggestions{padding:6px 14px 10px}.agent-input-wrap textarea{font-size:12px}.agent-composer-hint{font-size:7px}.overview-data .hero-value{font-size:37px}.overview-data .metric-grid{grid-template-columns:1fr 1fr;gap:10px}.overview-data .hero-bottom{gap:10px}.overview-data .hero-card{padding:22px}.overview-data .hero-stat strong{font-size:14px}}
+
+.system-page{padding-top:25px}.system-page .page-heading{margin-bottom:19px}
+.system-method-note{display:flex;justify-content:space-between;gap:18px;align-items:center;padding:10px 17px;background:#f3f0e5;border:1px solid #e7e2d0;border-radius:9px;margin-bottom:16px;color:#9c8655}
+.system-method-note strong{font-size:10px;font-weight:550}.system-method-note p{font-size:9px;margin-top:0;color:#a49879;display:inline;margin-left:12px}
+.system-method-note .text-button{color:#9a8656;flex-shrink:0}
+.system-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;background:white;border:1px solid var(--line);border-radius:11px;padding:12px 24px;margin-bottom:16px}
+.system-summary>div+div{padding-left:23px;border-left:1px solid var(--line)}
+.system-summary span{display:block;color:#8f9d82;font-size:10px}.system-summary strong{font-size:26px;line-height:1.4;display:block;color:#3e624b;font-weight:500;margin-top:6px;letter-spacing:-.6px}
+.system-summary strong small{font-size:11px;color:#a2ac96;letter-spacing:0;font-weight:400}.system-summary .system-not-verified{font-size:20px;color:#a28d5e;margin-top:10px}.system-summary .system-draft-label{font-size:17px;letter-spacing:0;margin-top:12px}
+.system-view-toolbar{display:flex;align-items:center;justify-content:space-between;gap:17px;margin-bottom:16px}.system-view-toolbar>div:last-child{display:flex;gap:20px}.system-view-toolbar .text-button{font-size:10px}
+.system-map-layout{display:grid;grid-template-columns:minmax(0,1fr) 285px;align-items:start;gap:19px}
+.system-canvas .panel-header{padding:22px 23px 10px}.system-canvas .panel-header h2{font-size:14px}
+.system-flow{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr);padding:13px 23px 19px;align-items:stretch}
+.system-node{display:flex;flex-direction:column;text-align:left;border:1px solid #dce4d6;border-radius:9px;padding:13px 14px;background:#fcfdf9;min-width:0;position:relative;transition:border-color .12s ease}
+.system-node:hover{border-color:#93ad82}.system-node.pending{border-style:dashed;border-color:#d9cbaa;background:#fdfbf5}.system-node.selected{border:2px solid #598368;padding:12px 13px;box-shadow:0 0 0 3px #eff4e9;background:#f5f8ef}
+.system-node.selected.pending{border-color:#aa9359;background:#fbf8ed;box-shadow:0 0 0 3px #f6f1e1}
+.system-node-top{display:flex;align-items:center;justify-content:space-between;gap:7px;margin-bottom:9px}.system-node-number{font-size:10px;letter-spacing:1px;color:#9eac92}.system-node-status{font-size:8px;color:#8d9b7f;background:#eef3e8;border-radius:4px;padding:2px 5px}.pending .system-node-status{background:#f5edd9;color:#b09a68}
+.system-node strong{font-size:13px;font-weight:550;color:#49623c}.system-node-desc{display:block;font-size:9px;color:#97a18b;line-height:1.8;margin-top:6px;min-height:33px}.system-node-open{font-size:8px;color:#90a17e;display:flex;justify-content:space-between;align-items:center;margin-top:10px}.system-node-open svg{width:12px;height:12px}
+.system-flow-arrow{display:grid;place-items:center;color:#b8c5aa;font-size:19px}.system-flow-bridge{grid-column:1/-1;text-align:center;height:26px;display:flex;align-items:center;justify-content:center;color:#bcc7af;font-size:18px}.system-flow-bridge:before,.system-flow-bridge:after{content:'';height:1px;width:24%;border-top:1px dashed #e0e7d7;margin-inline:13px}
+.system-feedback{grid-column:2/4;align-self:center;padding-left:27px;color:#96a783}.system-feedback>span{font-size:25px;display:block;color:#b2c29f;margin-bottom:3px}.system-feedback strong{font-size:10px;font-weight:500;display:block}.system-feedback p{font-size:9px;color:#a4ae99;margin:5px 0}.system-feedback .text-button{font-size:9px}
+.system-gates{padding:13px 23px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:7px 15px;background:#fbfcf8}.system-gates span{font-size:8px;color:#9ba58e}.system-gates span:before{content:'·';margin-right:5px;color:#bdc8b0}
+.system-inspector{position:sticky;top:20px}.system-inspector .panel-header{align-items:flex-start}.system-inspector h2{margin-top:6px;font-size:17px}.system-inspector-question{font-size:11px;line-height:1.9;color:#889b75;margin:2px 0 8px}.system-inspector-field{padding:17px 0;border-bottom:1px solid var(--line)}.system-inspector-field>span{font-size:9px;color:#a1ad93;display:block;margin-bottom:8px}.system-inspector-field p{font-size:12px;line-height:1.95;color:#647e52;overflow-wrap:anywhere}.system-inspector-field p.unknown{color:#b09862}.system-inspector-note{font-size:10px;line-height:1.9;color:#9ca88f;background:#f6f8f0;border-radius:7px;padding:13px;margin-top:17px}.system-edit-button{width:100%;margin-top:20px}.system-memory-note{font-size:8px;color:#b1bba3;text-align:center;margin-top:9px}
+.system-evidence{margin-top:22px}.system-evidence-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:21px;padding:5px 24px 23px}.system-evidence-grid strong{font-size:11px;color:#788f64;font-weight:500}.system-evidence-grid p{font-size:10px;line-height:1.9;color:#a1ac93;margin-top:6px}
+.system-market-field{border:1px solid var(--line);padding:14px;border-radius:7px;margin:0 0 17px}.system-market-field legend{font-size:11px;color:#859872}.system-market-field label{font-size:12px;color:#627e4f;display:inline-flex;gap:7px;align-items:center;margin-right:18px}.system-market-field input{accent-color:#4b7755}
+@media(max-width:1100px){.system-map-layout{grid-template-columns:minmax(0,1fr) 245px;gap:15px}.system-flow{padding-inline:17px;grid-template-columns:minmax(0,1fr) 20px minmax(0,1fr)}.system-node{padding:12px}.system-node.selected{padding:11px}.system-node strong{font-size:12px}.system-node-desc{font-size:8px}.system-summary{padding:16px 20px}.system-summary>div+div{padding-left:15px}.system-summary .system-draft-label{font-size:15px}.system-evidence-grid{gap:16px;grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.system-map-layout{grid-template-columns:1fr}.system-inspector{position:static}.system-node-desc{font-size:10px}.system-flow{padding:13px 22px 22px;grid-template-columns:minmax(0,1fr) 32px minmax(0,1fr)}.system-node{padding:17px}.system-node.selected{padding:16px}.system-node strong{font-size:14px}.system-node-desc{min-height:0}.system-inspector .panel-body{display:grid;grid-template-columns:1fr 1fr;gap:0 22px}.system-inspector-question,.system-inspector-note{grid-column:1/-1}.system-inspector .system-edit-button{width:max-content}.system-memory-note{align-self:center;margin-top:20px}}
+@media(max-width:700px){.system-method-note{padding:12px 14px;align-items:flex-start;gap:10px}.system-method-note p{font-size:9px}.system-method-note .text-button{font-size:8px}.system-summary{grid-template-columns:1fr 1fr;gap:15px;padding:17px}.system-summary>div+div{padding-left:0;border:0}.system-summary>div:nth-child(even){padding-left:17px;border-left:1px solid var(--line)}.system-summary span{font-size:9px}.system-summary strong{font-size:25px}.system-summary .system-not-verified{font-size:19px}.system-summary .system-draft-label{font-size:16px}.system-view-toolbar{flex-wrap:wrap;gap:11px}.system-view-toolbar .segmented{width:100%}.system-view-toolbar .segmented button{flex:1}.system-view-toolbar>div:last-child{width:100%;justify-content:space-between;gap:10px}.system-view-toolbar .text-button{font-size:9px}.system-canvas .panel-header{padding:19px 16px 8px}.system-canvas .panel-header h2{font-size:12px}.system-canvas .panel-header .small-tag{font-size:8px}.system-flow{padding:11px 14px 19px;grid-template-columns:minmax(0,1fr) 22px minmax(0,1fr)}.system-node{padding:12px 11px}.system-node.selected{padding:11px 10px}.system-node strong{font-size:12px}.system-node-desc{font-size:8px;min-height:29px}.system-node-number{font-size:8px}.system-node-status{font-size:7px}.system-node-top{gap:4px}.system-node-open{font-size:7px}.system-feedback{padding-left:14px}.system-feedback strong{font-size:9px}.system-feedback p{font-size:8px}.system-feedback .text-button{font-size:8px}.system-gates{padding:12px 16px;gap:6px}.system-gates span{font-size:7px}.system-inspector .panel-body{display:block}.system-inspector .system-edit-button{width:100%}.system-memory-note{margin-top:9px}.system-evidence-grid{padding:0 18px 18px;gap:17px}.system-evidence-grid strong{font-size:10px}.system-evidence-grid p{font-size:9px}}
 </style>
+  
   
   <script type="module">// Money remains an integer string throughout display and demo input parsing.
 function formatMoney(minor) {
@@ -118,7 +146,94 @@ function prepareDemoTurn(raw) {
   return {user:{role:'user',text,links:[]},assistant:{role:'assistant',...reply}};
 }
 
+// Existing system-card fields, reorganized for a visual UI. Not a trading engine.
+const systemFieldNames = {
+  goal:'投资目标',time_budget:'可投入时间',holding_period:'持有周期',universe:'投资范围',entry_conditions:'入场条件',exit_conditions:'退出与失效条件',risk_limits:'风险限额',execution_checklist:'执行检查清单',review_method:'复盘方法',
+};
+const systemNodes = [
+  {id:'purpose',title:'目标与约束',subtitle:'我为什么投资，能投入多少时间？',fields:['goal','time_budget']},
+  {id:'scope',title:'范围与周期',subtitle:'在哪些市场，用怎样的持有周期？',fields:['universe','holding_period']},
+  {id:'entry',title:'入场条件',subtitle:'什么条件出现，才考虑一笔交易？',fields:['entry_conditions']},
+  {id:'risk',title:'风险与仓位',subtitle:'既定风险边界是否已明确？',fields:['risk_limits']},
+  {id:'execution',title:'执行检查清单',subtitle:'行动之前，需要逐项核对什么？',fields:['execution_checklist']},
+  {id:'exit',title:'退出与失效',subtitle:'何时结束，何时承认原判断失效？',fields:['exit_conditions']},
+  {id:'review',title:'复盘与修订',subtitle:'根据记录审视规则，保留修改版本。',fields:['review_method']},
+];
+const demoSystemBaseline = {
+  revision:1,
+  answers:{goal:'整理决策过程，建立稳定的复盘习惯。',time_budget:'每周安排一次整理记录与核对计划。',holding_period:'在每笔计划中由用户自行说明。',universe:['a_shares','etfs'],entry_conditions:null,exit_conditions:null,risk_limits:{single_instrument_limit_bps:3000,total_equity_limit_bps:7000},execution_checklist:'核对资料完整性 → 查看既定规则 → 写明理由；正式变更在本地终端确认。',review_method:'按月对照计划与有效记录，整理自述执行偏差。'},
+};
+const marketNames={a_shares:'A 股',etfs:'ETF',funds:'普通基金'};
+function parseDemoBps(value){
+  if(typeof value!=='string')return {error:'请使用规范比例文字。'};
+  const text=value.trim();if(text==='')return {value:null};
+  if(!/^(0|[1-9]\d{0,2})(\.\d{1,2})?$/.test(text))return {error:'比例需为0至100，最多两位小数；空白表示未知。'};
+  const [whole,fraction='']=text.split('.');
+  const bps=Number(whole+fraction.padEnd(2,'0'));
+  return bps<=10000?{value:bps}:{error:'比例不能超过100%。'};
+}
+function demoBpsText(value){
+  if(value===null)return '';
+  if(!Number.isInteger(value)||value<0||value>10000)throw new TypeError('Invalid bps');
+  const s=String(value).padStart(3,'0');return `${s.slice(0,-2)}.${s.slice(-2)}`.replace(/\.00$/,'').replace(/(\.\d)0$/,'$1');
+}
+function systemFieldComplete(field,value){
+  if(value===null||value===undefined)return false;
+  if(field==='risk_limits')return value.single_instrument_limit_bps!==null&&value.total_equity_limit_bps!==null;
+  if(field==='universe')return value.length>0;
+  return typeof value==='string'&&value.trim().length>0;
+}
+function missingSystemFields(draft){return Object.keys(systemFieldNames).filter(field=>!systemFieldComplete(field,draft.answers[field]));}
+function setDemoAnswer(draft,field,value){
+  if(!Object.hasOwn(systemFieldNames,field))return {error:'未知栏目。'};
+  let normalized=value;
+  if(field==='universe'){
+    if(value!==null&&(!Array.isArray(value)||value.some(v=>!Object.hasOwn(marketNames,v))||new Set(value).size!==value.length))return {error:'请选择已列出的市场，且不能重复。'};
+    normalized=value?.length?[...value]:null;
+  }else if(field==='risk_limits'){
+    if(value!==null){
+      const keys=['single_instrument_limit_bps','total_equity_limit_bps'];
+      if(typeof value!=='object'||Array.isArray(value)||Object.keys(value).length!==2||keys.some(k=>!Object.hasOwn(value,k)||value[k]!==null&&(!Number.isInteger(value[k])||value[k]<0||value[k]>10000)))return {error:'风险限额仅接受两项0..10000整数基点或未知值。'};
+      normalized={...value};
+    }
+  }else{
+    if(value!==null&&(typeof value!=='string'||value.length>500||/[\u0000-\u001f\u007f-\u009f\u061c\u200e\u200f\u202a-\u202e\u2066-\u2069]/u.test(value)))return {error:'请填写500字以内的单行文字，不包含控制字符或双向显示控制符。'};
+    normalized=value?.trim()||null;
+  }
+  if(JSON.stringify(draft.answers[field])===JSON.stringify(normalized))return {draft};
+  return {draft:{revision:draft.revision+1,answers:{...draft.answers,[field]:normalized}}};
+}
+function demoSystemValue(field,value){
+  if(!systemFieldComplete(field,value)&&field!=='risk_limits')return '暂未明确';
+  if(field==='universe')return value.map(v=>marketNames[v]).join(' / ');
+  if(field==='risk_limits')return `单一证券仓位上限：${value?.single_instrument_limit_bps===null||!value?'待明确':demoBpsText(value.single_instrument_limit_bps)+'%'}；权益暴露上限：${value?.total_equity_limit_bps===null||!value?'待明确':demoBpsText(value.total_equity_limit_bps)+'%'}`;
+  return value;
+}
 
+
+function renderSystemMap(model,{e,icon}){
+  const {draft,selected,tab}=model;
+  const missing=missingSystemFields(draft);
+  const active=systemNodes.find(n=>n.id===selected)||systemNodes[0];
+  const nodeHTML=(node,index)=>{
+    const pending=node.fields.some(field=>!systemFieldComplete(field,draft.answers[field]));
+    return `<button class="system-node ${pending?'pending':''} ${node.id===active.id?'selected':''}" data-system-node="${node.id}" aria-pressed="${node.id===active.id}"><span class="system-node-top"><span class="system-node-number">0${index+1}</span><span class="system-node-status">${pending?'待明确':'已填写'}</span></span><strong>${node.title}</strong><span class="system-node-desc">${node.subtitle}</span><span class="system-node-open">查看规则 ${icon('arrow')}</span></button>`;
+  };
+  const canvas=`<section class="panel system-canvas"><div class="panel-header"><div><h2>把你的方法，连成一套系统</h2><p class="panel-subtitle">点击任一环节，查看描述与待完善项。</p></div><span class="small-tag">结构示意</span></div><div class="system-flow" role="group" aria-label="交易系统结构图">${systemNodes.map((node,i)=>`${nodeHTML(node,i)}${i===0||i===2||i===4?'<span class="system-flow-arrow" aria-hidden="true">→</span>':''}${i===1||i===3||i===5?'<div class="system-flow-bridge" aria-hidden="true"><span>↓</span></div>':''}`).join('')}<div class="system-feedback"><span>↶</span><strong>根据记录，回到目标与规则</strong><p>复盘形成新草稿，正式版本保留。</p><button class="text-button" data-system-node="purpose">回到起点 ${icon('arrow')}</button></div></div><div class="system-gates"><span>条件不满足 → 继续观察</span><span>资料不足 → 先补齐资料</span><span>规则失效 → 按已定义流程复盘</span></div><div class="safe-note">画布展示描述关系，不生成信号、不判定入退场条件，也不执行交易。</div></section>`;
+  const inspector=`<aside class="panel system-inspector" aria-labelledby="system-inspector-title"><div class="panel-header"><div><span class="eyebrow">RULE DETAILS</span><h2 id="system-inspector-title">${active.title}</h2></div><span class="count">0${systemNodes.indexOf(active)+1}</span></div><div class="panel-body"><p class="system-inspector-question">${active.subtitle}</p>${active.fields.map(field=>`<div class="system-inspector-field"><span>${systemFieldNames[field]}</span><p class="${systemFieldComplete(field,draft.answers[field])?'':'unknown'}">${e(demoSystemValue(field,draft.answers[field]))}</p></div>`).join('')}<div class="system-inspector-note">${active.id==='risk'?'仓位上限与单笔亏损预算含义不同。本页仅展示演示系统卡，不自动修改P4数字规则。':active.id==='entry'||active.id==='exit'?'写清可事后核对的条件与证据。文字填写完成后，仍不代表条件已被程序验证。':'目前是虚构演示资料。填写状态只表示是否有描述，不代表规则有效。'}</div><button class="button primary system-edit-button" data-system-edit="${active.id}">${icon('plan')}编辑演示草稿</button><p class="system-memory-note">仅本页内存 · 刷新恢复示例</p></div></aside>`;
+  const card=`<section class="panel"><div class="panel-header"><h2>完整系统卡 · 当前演示草稿</h2><span class="small-tag">r${draft.revision}</span></div><div class="system-fields">${Object.keys(systemFieldNames).map((field,i)=>`<div class="system-field ${field==='review_method'?'full':''}"><span>0${i+1} / ${systemFieldNames[field]}</span><p class="${systemFieldComplete(field,draft.answers[field])?'':'unknown'}">${e(demoSystemValue(field,draft.answers[field]))}</p></div>`).join('')}</div><div class="safe-note">完整卡片与画布使用同一份演示草稿。初始v1示例保留，正式资料仍须可信本地终端确认。</div></section>`;
+  return `<div class="system-method-note"><div><strong>方法来源待确认</strong><p>尚未绑定具体书籍；当前依据已有九项系统卡资料组织画布。</p></div><button class="text-button" data-action="system-method">查看依据 ${icon('arrow')}</button></div><div class="system-summary"><div><span>描述完成度</span><strong>${9-missing.length}<small> / 9 项</small></strong></div><div><span>尚待明确</span><strong>${missing.length}<small> 项</small></strong></div><div><span>策略有效性证据</span><strong class="system-not-verified">未验证</strong></div><div><span>当前内容</span><strong class="system-draft-label">演示草稿 r${draft.revision}</strong></div></div><div class="system-view-toolbar"><div class="segmented" role="group" aria-label="交易系统视图"><button data-system-tab="map" class="${tab==='map'?'active':''}" aria-pressed="${tab==='map'}">系统画布</button><button data-system-tab="card" class="${tab==='card'?'active':''}" aria-pressed="${tab==='card'}">完整卡片</button></div><div><button class="text-button" data-action="system-diff">对比初始示例 ${icon('arrow')}</button><button class="text-button" data-system-next>下一个待明确 ${icon('arrow')}</button></div></div>${tab==='card'?card:`<div class="system-map-layout">${canvas}${inspector}</div>`}<section class="panel system-evidence"><div class="panel-header"><h2>结构清楚之后，还需要什么证据？</h2><span class="small-tag">尚未验证</span></div><div class="system-evidence-grid"><div><strong>方法与适用边界</strong><p>书目、概念、用户自己的理由与不适用情形。</p></div><div><strong>规则能否重现</strong><p>条件、时间、费用与执行假设能否被复核。</p></div><div><strong>独立的验证记录</strong><p>保留样本范围、失败结果、验证阶段与局限。</p></div><div><strong>真实执行的复盘</strong><p>关联成交与事前计划，区分历史、模拟和实盘。</p></div></div><div class="safe-note">本页没有运行回测，也不提供收益预测。描述填满不等于交易系统已有效。</div></section>`;
+}
+
+function renderSystemEditor(node,draft,e){
+  const fields=node.fields.map(field=>{
+    const value=draft.answers[field];
+    if(field==='universe')return `<fieldset class="system-market-field"><legend>投资范围 · 可全部留空表示未知</legend>${Object.entries(marketNames).map(([key,label])=>`<label><input type="checkbox" name="universe" value="${key}" ${value?.includes(key)?'checked':''}>${label}</label>`).join('')}</fieldset>`;
+    if(field==='risk_limits')return `<div class="form-row"><div class="field"><label for="system-single">单一证券仓位上限 · %</label><input id="system-single" name="single_instrument_limit_bps" inputmode="decimal" value="${value?demoBpsText(value.single_instrument_limit_bps):''}" placeholder="空白表示待明确"></div><div class="field"><label for="system-equity">权益暴露上限 · %</label><input id="system-equity" name="total_equity_limit_bps" inputmode="decimal" value="${value?demoBpsText(value.total_equity_limit_bps):''}" placeholder="空白表示待明确"></div></div><p>空白是未知，0是明确的零上限；最多两位小数，不自动应用到正式风险规则。</p>`;
+    return `<div class="field"><label for="system-${field}">${systemFieldNames[field]} · 可暂未明确</label><input id="system-${field}" name="${field}" value="${e(value||'')}" maxlength="500" placeholder="请只填写虚构、可事后核对的描述" autocomplete="off"></div>`;
+  }).join('');
+  return `<p>本次只修改本页的虚构演示草稿，不写入档案。留空表示尚未明确。</p><form id="system-edit-form" data-node="${node.id}">${fields}<p id="system-form-error" class="form-error" role="alert" hidden></p><button class="button primary" type="submit">保存到本页演示 ${'→'}</button></form>`;
+}
 
 
 const paths = {
@@ -142,7 +257,7 @@ const paths = {
 const icon = (name) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[name] || paths.plan}"/></svg>`;
 const nav = [ ['overview','投资总览','grid'],['system','我的交易系统','system'],['plans','计划与风险','plan'],['ledger','交易记录','ledger'],['review','月度复盘','review'] ];
 const titles = Object.fromEntries([...nav.map(([id,label])=>[id,label]),['settings','本地与隐私']]);
-const state = { page:'overview', hidden:false, filter:'all', search:'', month:'2026-10', draft:null, chat:[{role:'assistant',text:demoGreeting,links:[]}], chatInput:'' };
+const state = { page:'overview', hidden:false, filter:'all', search:'', month:'2026-10', draft:null, chat:[{role:'assistant',text:demoGreeting,links:[]}], chatInput:'',systemMap:{draft:structuredClone(demoSystemBaseline),selected:'entry',tab:'map'} };
 const main = document.querySelector('#main');
 const dialog = document.querySelector('#dialog');
 const money = value => state.hidden ? '••••••' : formatMoney(value);
@@ -197,8 +312,7 @@ function overview(){
   <div class="lower-grid"><section class="panel"><div class="panel-header"><h2>最近的投资记录</h2><button class="text-button" data-page="ledger">${arrow('全部记录')}</button></div><div class="table-wrap"><table aria-label="最近的示例投资记录"><thead><tr><th>日期 / 2026</th><th>事项</th><th>状态</th></tr></thead><tbody>${rows(records.slice(0,3))}</tbody></table></div></section><section class="panel"><div class="panel-header"><h2>写给自己的投资提醒</h2>${icon('plan')}</div><div class="journal-note"><div class="quote-mark">“</div><p>先把为什么做这笔交易写下来，<br>再回头看，它是否符合原来的计划。</p><div class="note-source"><span>个人原则 · 示例文字</span><button class="text-button" data-page="system">查看系统 ↗</button></div></div></section></div>`;
 }
 function system(){
-  return heading('YOUR OWN PRINCIPLES','我的交易系统','一张系统卡，把你的想法变成可回顾的行动原则。',`<button class="button primary" data-action="system-guide">${icon('plan')}完善系统卡</button>`)+`
-  <div class="view-intro"><div><h2>个人投资系统 · v1</h2><p>合成示例 · 2026.10.10 · 确认描述不代表规则已经有效性验证。</p></div><span class="small-tag">2 项待明确</span></div><div class="section-grid"><section class="panel"><div class="panel-header"><h2>我的原则卡</h2><span class="eyebrow">SYSTEM CARD</span></div><div class="system-fields"><div class="system-field"><span>01 / 投资目标</span><p>记录决策过程，建立稳定的复盘习惯。</p></div><div class="system-field"><span>02 / 可投入时间</span><p>每周一次，整理记录与检查计划。</p></div><div class="system-field"><span>03 / 持有周期</span><p>由用户针对每笔计划自行说明。</p></div><div class="system-field"><span>04 / 投资范围</span><p>A 股与 ETF · 示例范围</p></div><div class="system-field"><span>05 / 入场条件</span><p class="unknown">暂未确定，待用户补充</p></div><div class="system-field"><span>06 / 退出与失效条件</span><p class="unknown">暂未确定，待用户补充</p></div><div class="system-field"><span>07 / 风险限额</span><p>沿用明确引用的计划规则版本。</p></div><div class="system-field"><span>08 / 执行清单</span><p>核对资料 → 检查规则 → 记录理由</p></div><div class="system-field full"><span>09 / 复盘方法</span><p>按月对照既定计划，回顾已记录的成交与自述偏差。</p></div></div></section><div><section class="panel"><div class="panel-header"><h2>系统是一份持续修订的约定</h2></div><div class="panel-body"><p class="subtitle">可以暂未确定，也可以重新思考。每次正式修改产生新版本，旧版保留。</p><ul class="detail-list"><li>先陈述你的原则<small>AI 不会替你生成证券或买卖条件。</small></li><li>补充未明确的边界<small>未知内容始终显示为未知。</small></li><li>在可信本地终端确认<small>网页原型无法批准正式系统卡。</small></li></ul><button class="text-button" data-action="versions">${arrow('查看版本与引用')}</button></div></section></div></div>`;
+  return heading('DESIGN YOUR PROCESS','我的交易系统','把目标、条件与边界连起来，看清自己的决策过程。',`<button class="button" data-action="system-diff">对比演示版本</button><button class="button primary" data-action="system-guide">${icon('plan')}逐步设计系统</button>`)+renderSystemMap(state.systemMap,{e:escapeHTML,icon});
 }
 function plans(){
   return heading('PLAN BEFORE ACTION','计划与风险','规则随计划版本固定，检查结果随输入资料变化。',`<button class="button" data-action="versions">版本历史</button><button class="button primary" data-action="intent">${icon('plus')}新建拟交易</button>`)+`
@@ -220,6 +334,7 @@ function settings(){
 }
 const views={overview,system,plans,ledger,review,settings};
 function render(){
+  main.classList.toggle('system-page',state.page==='system');
   main.innerHTML=views[state.page]();
   scrollChat();
   document.querySelector('#breadcrumb-current').textContent=titles[state.page];
@@ -257,6 +372,18 @@ function intent(){
   showDialog('先写下这次交易的计划',`<p>交互演示 · 请只填写虚构资料。草稿不写入数据库，也不会生成真实风控结论。</p><form id="intent-form"><div class="form-row"><div class="field"><label for="instrument">示例标的名称</label><input id="instrument" name="instrument" maxlength="40" value="示例 ETF" required autocomplete="off"></div><div class="field"><label for="side">方向</label><select id="side" name="side"><option value="buy">买入</option><option value="sell">卖出</option></select></div></div><div class="field"><label for="amount">计划金额 · CNY</label><input id="amount" name="amount" inputmode="decimal" placeholder="例如 5000.00" required autocomplete="off"><small class="muted">最多两位小数；使用整数分字符串，不进行财务浮点计算。</small></div><div class="field"><label for="reason">决策理由 · 可留空</label><textarea id="reason" name="reason" maxlength="500" placeholder="这笔计划和你原有的原则有什么联系？"></textarea></div><p id="form-error" class="form-error" role="alert" hidden></p><button class="button primary" type="submit">预览示例草稿 ${icon('arrow')}</button></form>`);
 }
 document.addEventListener('click',event=>{
+  const systemNode=event.target.closest('[data-system-node]');
+  if(systemNode){state.systemMap.selected=systemNode.dataset.systemNode;state.systemMap.tab='map';render();document.querySelector(`[data-system-node="${state.systemMap.selected}"]`).focus({preventScroll:true});return;}
+  const systemTab=event.target.closest('[data-system-tab]');
+  if(systemTab){state.systemMap.tab=systemTab.dataset.systemTab;render();document.querySelector(`[data-system-tab="${state.systemMap.tab}"]`).focus({preventScroll:true});return;}
+  const systemEdit=event.target.closest('[data-system-edit]');
+  if(systemEdit){const node=systemNodes.find(n=>n.id===systemEdit.dataset.systemEdit);showDialog(`编辑${node.title} · 演示草稿`,renderSystemEditor(node,state.systemMap.draft,escapeHTML));return;}
+  if(event.target.closest('[data-system-next]')){
+    const missing=missingSystemFields(state.systemMap.draft);
+    const pending=systemNodes.filter(n=>n.fields.some(f=>missing.includes(f)));
+    if(!pending.length){showDialog('九项描述均已填写','<p>这只表示有文字或数值，尚未验证规则是否严谨、适用或有效。请继续核对方法依据与独立验证证据。</p>');return;}
+    const index=pending.findIndex(n=>n.id===state.systemMap.selected);state.systemMap.selected=pending[(index+1)%pending.length].id;state.systemMap.tab='map';render();document.querySelector(`[data-system-node="${state.systemMap.selected}"]`).focus({preventScroll:true});return;
+  }
   const prompt=event.target.closest('[data-agent-prompt]');
   if(prompt){sendDemoMessage(prompt.dataset.agentPrompt);return;}
   if(event.target.closest('#agent-reset')){state.chat=[{role:'assistant',text:demoGreeting,links:[]}];state.chatInput='';render();document.querySelector('#agent-input').focus({preventScroll:true});return;}
@@ -267,6 +394,13 @@ document.addEventListener('click',event=>{
   const action=event.target.closest('[data-action]');
   if(!action)return;
   const type=action.dataset.action;
+  if(type==='system-method'){showDialog('方法依据 · 书目待确认','<p>目前根据项目已有的九项系统卡字段组织：目标、时间、周期、范围、入场、退出、风险、执行与复盘。</p><p>尚未绑定用户所指的书籍。确认书名后，再将书中概念映射到引导问题、字段和验证证据；不会把书中的示例自动设为用户的交易规则。</p><p class="dialog-notice">当前画布是界面结构，不能视为某本书的完整方法，也不证明系统有效。</p>');return;}
+  if(type==='system-diff'){
+    const changed=Object.keys(systemFieldNames).filter(f=>JSON.stringify(state.systemMap.draft.answers[f])!==JSON.stringify(demoSystemBaseline.answers[f]));
+    const body=changed.length?changed.map(f=>`<li>${systemFieldNames[f]}<small>初始示例：${escapeHTML(demoSystemValue(f,demoSystemBaseline.answers[f]))}</small><small>当前演示：${escapeHTML(demoSystemValue(f,state.systemMap.draft.answers[f]))}</small></li>`).join(''):'<li>尚无变更<small>当前演示草稿与初始v1示例相同。</small></li>';
+    showDialog('演示草稿与初始示例',`<ul class="detail-list">${body}</ul><p class="dialog-notice">初始v1示例不被改写；这些差异没有写入正式系统卡或投资计划。</p><button class="button" id="system-reset-example">恢复初始演示</button>`);
+    document.querySelector('#system-reset-example').addEventListener('click',()=>{state.systemMap.draft=structuredClone(demoSystemBaseline);dialog.close();render();});return;
+  }
   if(type==='intent'){intent();return;}
   if(type==='record'){
     const map={plan:'versions',check:'risk',journal:'journal',trade:'trade'};
@@ -282,6 +416,21 @@ document.addEventListener('input',event=>{
 });
 document.addEventListener('change',event=>{if(event.target.id==='month-select'){state.month=event.target.value;render();document.querySelector('#month-select').focus();}});
 document.addEventListener('submit',event=>{
+  if(event.target.id==='system-edit-form'){
+    event.preventDefault();const form=event.target;const node=systemNodes.find(n=>n.id===form.dataset.node);const data=new FormData(form);let draft=state.systemMap.draft;
+    const showError=text=>{const err=document.querySelector('#system-form-error');err.textContent=text;err.hidden=false;};
+    for(const field of node.fields){
+      let value;
+      if(field==='universe')value=data.getAll('universe');
+      else if(field==='risk_limits'){
+        const single=parseDemoBps(String(data.get('single_instrument_limit_bps')));const equity=parseDemoBps(String(data.get('total_equity_limit_bps')));
+        if(single.error||equity.error){showError(single.error||equity.error);return;}
+        value={single_instrument_limit_bps:single.value,total_equity_limit_bps:equity.value};
+      }else value=String(data.get(field)||'');
+      const result=setDemoAnswer(draft,field,value);if(result.error){showError(result.error);return;}draft=result.draft;
+    }
+    state.systemMap.draft=draft;dialog.close();render();document.querySelector('[data-system-edit]')?.focus({preventScroll:true});return;
+  }
   if(event.target.id==='agent-form'){event.preventDefault();sendDemoMessage(state.chatInput);return;}
   if(event.target.id!=='intent-form')return;
   event.preventDefault();
