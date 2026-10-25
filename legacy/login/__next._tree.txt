@@ -1,0 +1,4 @@
+:HL["/investoros-preview/legacy/_next/static/css/39ba5797a28ca93a.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"login","h":96,"c":"$Q2"}]]
+0:{"b":"BP1uLGbcaVOo5DWzmORSN","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

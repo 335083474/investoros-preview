@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:"static/chunks/app/layout-00ee173b6ed0d2b5.js"
+3:I[21942,["7177","$2"],"ThemeProvider"]
+4:"LegacyDemoBoundary"
+5:I[82723,["7177","$2"],"$4"]
+6:I[57121,[],""]
+7:I[74581,[],""]
+b:"static/chunks/8035-13618a747847e096.js"
+c:"static/chunks/9641-d636c4d9a519a4fb.js"
+d:"static/chunks/3813-b8c104929197bf4f.js"
+e:"static/chunks/8500-63a4afbeacab3b52.js"
+f:"static/chunks/997-c0bde11b140b3a1c.js"
+10:"static/chunks/2035-e75faf967a2e9ad4.js"
+11:"static/chunks/4926-2b3d2800151d3267.js"
+12:"static/chunks/app/dashboard/layout-be5f071b32fc490a.js"
+13:I[42415,["8035","$b","9641","$c","3813","$d","8500","$e","997","$f","2035","$10","4926","$11","1954","$12"],"DashboardLayout"]
+19:"static/chunks/7797-313379b4b1d4a1ad.js"
+1a:"static/chunks/app/dashboard/industry-data/page-98defad529e64dd1.js"
+1b:I[15306,["8035","$b","9641","$c","3813","$d","7797","$19","6755","$1a"],"Tabs"]
+1c:I[15306,["8035","$b","9641","$c","3813","$d","7797","$19","6755","$1a"],"TabsList"]
+1d:I[15306,["8035","$b","9641","$c","3813","$d","7797","$19","6755","$1a"],"TabsTrigger"]
+1e:I[15306,["8035","$b","9641","$c","3813","$d","7797","$19","6755","$1a"],"TabsContent"]
+1f:"IndustryDataExchange"
+20:I[96912,["8035","$b","9641","$c","3813","$d","7797","$19","6755","$1a"],"$1f"]
+28:"ViewportBoundary"
+29:I[90484,[],"$28"]
+2a:"MetadataBoundary"
+2b:I[90484,[],"$2a"]
+2c:"$Sreact.suspense"
+:HL["/investoros-preview/legacy/_next/static/css/39ba5797a28ca93a.css","style"]
+9:X
+17:X
+17:C
+18:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col gap-6","children":[["$","div",null,{"className":"flex flex-col gap-2","children":[["$","h1",null,{"className":"text-3xl font-bold tracking-tight","children":"行业数据"}],["$","p",null,{"className":"text-muted-foreground","children":"查看和分析行业数据，包括交易所数据、库存数据和趋势指标"}]]}],["$","$L1b",null,{"defaultValue":"exchange","className":"space-y-4","children":[["$","$L1c",null,{"children":[["$","$L1d",null,{"value":"exchange","children":"交易所数据"}],["$","$L1d",null,{"value":"inventory","children":"库存数据"}],["$","$L1d",null,{"value":"trends","children":"趋势指标"}]]}],["$","$L1e",null,{"value":"exchange","className":"space-y-4","children":["$","div",null,{"className":"rounded-xl border bg-card text-card-foreground shadow","children":[["$","div",null,{"className":"flex flex-col space-y-1.5 p-6","children":[["$","div",null,{"className":"font-semibold leading-none tracking-tight","children":"交易所多级数据"}],["$","div",null,{"className":"text-sm text-muted-foreground","children":"查看各大交易所的多级交易数据"}]]}],["$","div",null,{"className":"p-6 pt-0","children":["$","$L20",null,{}]}],["$","div",null,{"className":"items-center p-6 pt-0 flex justify-between","children":[["$","button",null,{"className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2","children":"导出数据"}],["$","button",null,{"className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2","children":"生成报告"}]]}]]}]}],["$","$L1e",null,{"value":"inventory","className":"space-y-4","children":["$","div",null,{"className":"rounded-xl border bg-card text-card-foreground shadow","children":[["$","div",null,{"className":"flex flex-col space-y-1.5 p-6","children":["$L21","$L22"]}],"$L23","$L24"]}]}],"$L25"]}]]}],null,"$L26"]}],"p":"$@27","v":null,"s":"$9"}}]]
+15:[["children",{"s":"industry-data","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@16","v":"$17","s":"$9"},"c":"$Q18"}]]
+a:[["children",{"s":"dashboard","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L13",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]}]]}],"p":"$@14","v":null,"s":"$9"},"c":"$Q15"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/investoros-preview/legacy/_next/static/css/39ba5797a28ca93a.css","precedence":"next"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":["$","body",null,{"className":"min-h-screen bg-background antialiased","children":["$","$L3",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]}]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[null,["$","$L29",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L2b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"金融管理平台"}],["$","meta","1",{"name":"description","content":"综合金融管理平台，提供交易记录、资金管理、风险控制和内容共享功能"}]]}]}],null]}],null]}],"p":"$@2d","v":null,"s":"$9"}},"a":"$@2e","u":"$@2f","b":"BP1uLGbcaVOo5DWzmORSN"}
+30:"IndustryDataInventory"
+31:I[45229,["8035","$b","9641","$c","3813","$d","7797","$19","6755","$1a"],"$30"]
+32:"IndustryDataTrends"
+33:I[82863,["8035","$b","9641","$c","3813","$d","7797","$19","6755","$1a"],"$32"]
+34:I[90484,[],"OutletBoundary"]
+21:["$","div",null,{"className":"font-semibold leading-none tracking-tight","children":"库存数据"}]
+22:["$","div",null,{"className":"text-sm text-muted-foreground","children":"查看各类商品和资产的库存数据"}]
+23:["$","div",null,{"className":"p-6 pt-0","children":["$","$L31",null,{}]}]
+24:["$","div",null,{"className":"items-center p-6 pt-0 flex justify-between","children":[["$","button",null,{"className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2","children":"导出数据"}],["$","button",null,{"className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2","children":"生成报告"}]]}]
+25:["$","$L1e",null,{"value":"trends","className":"space-y-4","children":["$","div",null,{"className":"rounded-xl border bg-card text-card-foreground shadow","children":[["$","div",null,{"className":"flex flex-col space-y-1.5 p-6","children":[["$","div",null,{"className":"font-semibold leading-none tracking-tight","children":"趋势指标"}],["$","div",null,{"className":"text-sm text-muted-foreground","children":"查看行业趋势指标和预测"}]]}],["$","div",null,{"className":"p-6 pt-0","children":["$","$L33",null,{}]}],["$","div",null,{"className":"items-center p-6 pt-0 flex justify-between","children":[["$","button",null,{"className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2","children":"导出数据"}],["$","button",null,{"className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2","children":"生成报告"}]]}]]}]}]
+26:["$","$L34",null,{"children":["$","$2c",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
+9:300
+35:null
+2f:true
+9:C
+2e:0
+16:"$undefined"
+14:"$undefined"
+8:"$undefined"
+2d:"$undefined"
+27:"$undefined"

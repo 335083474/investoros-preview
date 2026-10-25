@@ -1,0 +1,47 @@
+1:"$Sreact.fragment"
+2:"static/chunks/app/layout-00ee173b6ed0d2b5.js"
+3:I[21942,["7177","$2"],"ThemeProvider"]
+4:"LegacyDemoBoundary"
+5:I[82723,["7177","$2"],"$4"]
+6:I[57121,[],""]
+7:I[74581,[],""]
+9:"static/chunks/8035-13618a747847e096.js"
+a:"static/chunks/9641-d636c4d9a519a4fb.js"
+b:"static/chunks/3813-b8c104929197bf4f.js"
+c:"static/chunks/8500-63a4afbeacab3b52.js"
+d:"static/chunks/997-c0bde11b140b3a1c.js"
+e:"static/chunks/2035-e75faf967a2e9ad4.js"
+f:"static/chunks/4926-2b3d2800151d3267.js"
+10:"static/chunks/app/dashboard/layout-be5f071b32fc490a.js"
+11:I[42415,["8035","$9","9641","$a","3813","$b","8500","$c","997","$d","2035","$e","4926","$f","1954","$10"],"DashboardLayout"]
+15:"static/chunks/7797-313379b4b1d4a1ad.js"
+16:"static/chunks/9920-58ac7ae9af14c515.js"
+17:"static/chunks/app/dashboard/simulation/page-c46f6a3bf375c603.js"
+18:I[15306,["8035","$9","9641","$a","3813","$b","7797","$15","997","$d","9920","$16","6897","$17"],"Tabs"]
+19:I[15306,["8035","$9","9641","$a","3813","$b","7797","$15","997","$d","9920","$16","6897","$17"],"TabsList"]
+1a:I[15306,["8035","$9","9641","$a","3813","$b","7797","$15","997","$d","9920","$16","6897","$17"],"TabsTrigger"]
+1b:I[15306,["8035","$9","9641","$a","3813","$b","7797","$15","997","$d","9920","$16","6897","$17"],"TabsContent"]
+1c:I[2731,["8035","$9","9641","$a","3813","$b","7797","$15","997","$d","9920","$16","6897","$17"],"SimulationList"]
+1d:"SimulationCreate"
+1e:I[16067,["8035","$9","9641","$a","3813","$b","7797","$15","997","$d","9920","$16","6897","$17"],"$1d"]
+1f:"SimulationPerformance"
+20:I[42151,["8035","$9","9641","$a","3813","$b","7797","$15","997","$d","9920","$16","6897","$17"],"$1f"]
+23:"ViewportBoundary"
+24:I[90484,[],"$23"]
+26:"MetadataBoundary"
+27:I[90484,[],"$26"]
+28:"$Sreact.suspense"
+2a:I[27123,[],"default",1]
+:HL["/investoros-preview/legacy/_next/static/css/39ba5797a28ca93a.css","style"]
+13:X
+14:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col gap-6","children":[["$","div",null,{"className":"flex flex-col gap-2","children":[["$","h1",null,{"className":"text-3xl font-bold tracking-tight","children":"模拟账户"}],["$","p",null,{"className":"text-muted-foreground","children":"创建和管理您的模拟交易账户"}]]}],["$","$L18",null,{"defaultValue":"list","className":"space-y-4","children":[["$","$L19",null,{"children":[["$","$L1a",null,{"value":"list","children":"我的模拟账户"}],["$","$L1a",null,{"value":"create","children":"创建模拟账户"}],["$","$L1a",null,{"value":"performance","children":"表现分析"}]]}],["$","$L1b",null,{"value":"list","className":"space-y-4","children":["$","$L1c",null,{}]}],["$","$L1b",null,{"value":"create","className":"space-y-4","children":["$","div",null,{"ref":"$undefined","className":"rounded-xl border bg-card text-card-foreground shadow","children":[["$","div",null,{"ref":"$undefined","className":"flex flex-col space-y-1.5 p-6","children":[["$","div",null,{"ref":"$undefined","className":"font-semibold leading-none tracking-tight","children":"创建模拟账户"}],["$","div",null,{"ref":"$undefined","className":"text-sm text-muted-foreground","children":"设置您的模拟交易账户参数"}]]}],["$","div",null,{"ref":"$undefined","className":"p-6 pt-0","children":["$","$L1e",null,{}]}]]}]}],["$","$L1b",null,{"value":"performance","className":"space-y-4","children":["$","div",null,{"ref":"$undefined","className":"rounded-xl border bg-card text-card-foreground shadow","children":[["$","div",null,{"ref":"$undefined","className":"flex flex-col space-y-1.5 p-6","children":[["$","div",null,{"ref":"$undefined","className":"font-semibold leading-none tracking-tight","children":"模拟账户表现"}],["$","div",null,{"ref":"$undefined","className":"text-sm text-muted-foreground","children":"分析您的模拟账户交易表现"}]]}],["$","div",null,{"ref":"$undefined","className":"p-6 pt-0","children":["$","$L20",null,{}]}],["$","div",null,{"ref":"$undefined","className":"items-center p-6 pt-0 flex justify-between","children":[["$","button",null,{"className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2","ref":"$undefined","children":"导出数据"}],"$L21"]}]]}]}]]}]]}],null,"$L22"]}],"p":false,"v":null}}]]
+12:[["children",{"s":"simulation","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$13"},"c":"$Q14"}]]
+8:[["children",{"s":"dashboard","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L11",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],"p":false,"v":null},"c":"$Q12"}]]
+0:{"P":null,"c":["","dashboard","simulation",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/investoros-preview/legacy/_next/static/css/39ba5797a28ca93a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":["$","body",null,{"className":"min-h-screen bg-background antialiased","children":["$","$L3",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L24",null,{"children":"$L25"}],["$","$L27",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$28",null,{"name":"Next.Metadata","children":"$L29"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$2a",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"BP1uLGbcaVOo5DWzmORSN"}
+2b:I[90484,[],"OutletBoundary"]
+13:C
+21:["$","button",null,{"className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2","ref":"$undefined","children":"生成报告"}]
+22:["$","$L2b",null,{"children":["$","$28",null,{"name":"Next.MetadataOutlet","children":"$@2c"}]}]
+25:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+29:[["$","title","0",{"children":"金融管理平台"}],["$","meta","1",{"name":"description","content":"综合金融管理平台，提供交易记录、资金管理、风险控制和内容共享功能"}]]
+2c:null
